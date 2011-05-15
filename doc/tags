@@ -496,6 +496,14 @@ gist-vim-license	gist-vim.txt	/*gist-vim-license*
 gist-vim-requirements	gist-vim.txt	/*gist-vim-requirements*
 gist-vim-tips	gist-vim.txt	/*gist-vim-tips*
 gist-vim-usage	gist-vim.txt	/*gist-vim-usage*
+gitv	gitv.txt	/*gitv*
+gitv-author	gitv.txt	/*gitv-author*
+gitv-changelog	gitv.txt	/*gitv-changelog*
+gitv-config-options	gitv.txt	/*gitv-config-options*
+gitv-installation	gitv.txt	/*gitv-installation*
+gitv-introduction	gitv.txt	/*gitv-introduction*
+gitv-misc	gitv.txt	/*gitv-misc*
+gitv-usage	gitv.txt	/*gitv-usage*
 iI	indent-object.txt	/*iI*
 i_CTRL-G_S	surround.txt	/*i_CTRL-G_S*
 i_CTRL-G_s	surround.txt	/*i_CTRL-G_s*

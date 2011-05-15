@@ -125,6 +125,7 @@ vim_plugin_task "tabular", "git://github.com/godlygeek/tabular.git"
 vim_plugin_task "ruby", "https://github.com/vim-ruby/vim-ruby.git"
 #vim_plugin_task "pydoc", "git://github.com/fs111/pydoc.vim.git"
 #vim_plugin_task "autoclose", "git://github.com/vim-scripts/AutoClose.git"
+vim_plugin_task "gitv", "git://github.com/gregsexton/gitv.git"
 
 vim_plugin_task "nerdcommenter", "git://github.com/scrooloose/nerdcommenter.git"
 vim_plugin_task "nerdtree", "git://github.com/scrooloose/nerdtree.git"
