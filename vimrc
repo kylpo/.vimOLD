@@ -508,6 +508,11 @@ noremap <silent> <C-8> <C-W>+
 noremap <silent> <C-9> <C-W>+
 noremap <silent> <C-0> <C-W>>
 
+"make <c-l> clear the highlight as well as redraw
+"TODO fix keys
+nnoremap <m-l> :nohls<CR><m-l>
+inoremap <m-l> <C-O>:nohls<CR>
+
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><Up>
 map <C-j> <C-w><Down>
@@ -545,10 +550,6 @@ inoremap <Nul> <C-x><C-o>
 " Execute file being edited with <Shift> + e:
 map <buffer> <S-e> :w<CR>:!/usr/bin/env python % <CR>
 
-"make <c-l> clear the highlight as well as redraw
-nnoremap <C-L> :nohls<CR><C-L>
-inoremap <C-L> <C-O>:nohls<CR>
-
 "map Q to something useful
 noremap Q gq
 
@@ -572,7 +573,7 @@ vmap <C-Down> ]egv
 let g:bufExplorerDetailedHelp=1     " show full help text by default
 " let g:bufExplorerShowRelativePath=1 " use relative paths
 let g:bufExplorerShowUnlisted=1     " display unlisted buffers
-nnoremap <C-B> :BufExplorer<cr>
+nnoremap <leader>b :BufExplorer<cr>
 
 """ NERDCommenter
 let NERDCreateDefaultMappings=0 " disable default mappings
